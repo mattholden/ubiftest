@@ -1,17 +1,13 @@
-=================================
 ParkBench 1.00
-Matt Holden (matt@mattholden.com)
 =================================
 
-Written for UBreakIFix November 2019
+Written for UBreakIFix November 2019 by Matt Holden (matt@mattholden.com)
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
 NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
 "OPTIONAL" in this document are to be interpreted as described in
 RFC 2119. 
 https://tools.ietf.org/rfc/rfc2119.txt
-
-=================================
 
 This tool is designed to quickly benchmark different function calls against each other and then report on the results. 
 
@@ -46,7 +42,7 @@ Reporters use Comparators to format BenchmarkResults according to the Comparator
 
 Consumers of the reporter will instantiate a concrete reporter with at least two parameters: the BenchmarkResult to analyze and an array of Comparator objects to report on. You MAY pass a third parameter, a filepath. If you do, the formatted report will be written to the provided file as well as returned as a string.
 
-IDEAS FOR IMPROVEMENT
+Ideas for Improvement
 =========================
 * Add more stock reporters (HTML, PDF, CSV, et. al.)
 * Add additional comparators (team: discuss ideas)
